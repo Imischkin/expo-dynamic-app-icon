@@ -7,11 +7,10 @@ import {
   withXcodeProject,
   withAndroidManifest,
   AndroidConfig,
-  AndroidManifest,
 } from "@expo/config-plugins";
 import { generateImageAsync } from "@expo/image-utils";
-import fs from "fs";
-import path from "path";
+import * as fs from "fs"
+import * as path from "path";
 // @ts-ignore
 import pbxFile from "xcode/lib/pbxFile";
 
@@ -310,10 +309,8 @@ const withIconInfoPlist: ConfigPlugin<Props> = (config, { icons }) => {
         config.modResults[key] = {};
       }
 
-      // @ts-expect-error
       config.modResults[key].CFBundleAlternateIcons = altIcons;
 
-      // @ts-expect-error
       config.modResults[key].CFBundlePrimaryIcon = {
         CFBundleIconFiles: ["AppIcon"],
       };
