@@ -29,7 +29,7 @@
   "author": "Junseo Oh <insung9546@gmail.com> (https://github.com/outsung)",
   "license": "MIT",
   "homepage": "https://github.com/outsung/expo-dynamic-app-icon#readme",
-  "dependencies": {},
+  "dependencies":   {},
   "devDependencies": {
     "@expo/image-utils": "^0.3.23",
     "@types/react": "^18.0.25",
