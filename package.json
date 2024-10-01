@@ -1,18 +1,18 @@
 {
 	"name": "expo-dynamic-app-icon",
-	"version": "1.2.1",
+	"version": "2.0",
 	"description": "Programmatically change the app icon in Expo.",
 	"main": "build/index.js",
 	"types": "build/index.d.ts",
-	"homepage": "https://github.com/outsung/expo-dynamic-app-icon",
+	"homepage": "https://github.com/Imischkin/expo-dynamic-app-icon",
 	"scripts": {
-		"build": "expo-module build",
+		"build": "npx expo-module build",
 		"build:plugin": "tsc --build ./plugin",
-		"clean": "expo-module clean",
-		"lint": "expo-module lint",
-		"test": "expo-module test",
-		"prepare": "expo-module prepare",
-		"prepublishOnly": "expo-module prepublishOnly",
+		"clean": "npx expo-module clean",
+		"lint": "npx expo-module lint",
+		"test": "npx expo-module test",
+		"prepare": "npx expo-module prepare",
+		"prepublishOnly": "npx expo-module prepublishOnly",
 		"expo-module": "expo-module",
 		"open:ios": "open -a \"Xcode\" example/ios",
 		"open:android": "open -a \"Android Studio\" example/android"
@@ -23,11 +23,8 @@
 		"expo-dynamic-app-icon",
 		"ExpoDynamicAppIcon"
 	],
-	"repository": "https://github.com/outsung/expo-dynamic-app-icon",
-	"bugs": {
-		"url": "https://github.com/outsung/expo-dynamic-app-icon/issues"
-	},
-	"author": "Junseo Oh <insung9546@gmail.com> (https://github.com/outsung)",
+	"repository": "https://github.com/Imischkin/expo-dynamic-app-icon",
+	"author": "Imischkin",
 	"license": "MIT",
 	"devDependencies": {
 		"@expo/image-utils": "^0.5.1",
